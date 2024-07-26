@@ -1,0 +1,12 @@
+.about-box {
+    display: flex;
+    gap: 1rem;
+    border-radius: .75rem;
+    --tw-border-opacity: 1;
+    border-color: rgb(33 36 37/var(--tw-border-opacity));
+    padding: 1.5rem
+}
+
+.dark .about-box {
+    border-width: 2px
+}

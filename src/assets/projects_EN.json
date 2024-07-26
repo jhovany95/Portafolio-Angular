@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Web Scraping",
+    "languages": ["Python", "HTML"],
+    "description": "Scraper made to consult the list of products in an Amazon Spain category. Work done for academic purposes.",
+    "githubLink": "https://github.com/jhovany95/ScrapingAmz",
+    "projectLink": "",
+    "imageLink": "../../../assets/images/python.png"
+  },
+  {
+    "title": "Automatic Planning Rpg-World",
+    "languages": ["AI", "PDDL"],
+    "description": "Project for automating the path of a hero through the levels of a video game using automatic planning.",
+    "githubLink": "https://github.com/jhovany95/automatic-planning-rpg-world",
+    "projectLink": "",
+    "imageLink": "../../../assets/images/IA.png"
+  },
+  {
+    "title": "Online laboratory results consultation system",
+    "languages": ["PHP", "HTML", "CSS", "Bootstrap", "PostgreSql", "Mysql"],
+    "description": "Made with Php and using all web development elements, such as HTML, JavaScript, Css, and Bootstrap. Fed from a local database service, migrating and encrypting data to a new database for later consultation in the web application.",
+    "githubLink": "",
+    "projectLink": "https://resultados.cmqcucuta.com/index.php",
+    "imageLink": "../../../assets/images/Laboratorio_CMQ.png"
+  },
+  {
+      "title": "Institutional Web Page",
+      "languages": ["PHP", "HTML", "CSS", "JavaScript", "Ajax", "Bootstrap"],
+      "description": "Made with Php and using all web development elements, such as HTML, JavaScript, Css, and Bootstrap. Fed from a local database service, migrating and encrypting data to a new database for later consultation in the web application.",
+      "githubLink": "",
+      "projectLink": "https://cmqcucuta.com/",
+      "imageLink": "../../../assets/images/cmqcucuta.png"
+  },
+  {
+      "title": "Transformers - Finetunning Beto",
+      "languages": ["Python", "Transformers", "AI"],
+      "description": "This project was developed as part of the Iberlef Homomex 2024 competition, Track 1. The main objective was to fine-tune a version of Beto to classify tweets in Mexican Spanish, performing a specific fine-tuning for this task.",
+      "githubLink": "https://github.com/jhovany95/Finetunning-Beto/",
+      "projectLink": "",
+      "imageLink": "../../../assets/images/IA.png"
+  },
+  {
+      "title": "API REST - Django, FastAPI",
+      "languages": ["Python", "Django", "FastApi"],
+      "description": "This project was developed as part of the Iberlef Homomex 2024 competition, Track 1. The main objective was to fine-tune a version of Beto to classify tweets in Mexican Spanish, performing a specific fine-tuning for this task.",
+      "githubLink": "https://github.com/jhovany95/Finetunning-Beto/",
+      "projectLink": "",
+      "imageLink": "../../../assets/images/python.png"
+  },
+  {
+      "title": "Moodle - Educational Platform",
+      "languages": ["PHP", "Mysql", "Bootstrap"],
+      "description": "Moodle platform configured and customized for the educational sector.",
+      "githubLink": "",
+      "projectLink": "http://179.32.27.18:9000/RH_educative",
+      "imageLink": "../../../assets/images/RH.png"
+  },
+  {
+    "title": "Portfolio - Angular",
+    "languages": ["TypeScript", "Angular", "TailWind Css"],
+    "description": "Moodle platform configured and customized for the educational sector.",
+    "githubLink": "",
+    "projectLink": "",
+    "imageLink": "../../../assets/images/portafolio.png"
+}
+]

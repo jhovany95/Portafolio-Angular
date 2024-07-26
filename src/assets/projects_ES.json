@@ -1,0 +1,84 @@
+[
+  {
+      "title": "Lab Results Online Portal",
+      "titleES": "Portal de Resultados de Laboratorio",
+      "languages": ["PHP", "HTML","JavaScript", "CSS", "Bootstrap", "PostgreSql", "Mysql"],
+      "description": "Developed with PHP and using all web development elements such as HTML, JavaScript, CSS, and Bootstrap. Powered by a local database service, migrating and encrypting data to a new database for later consultation in the web application.",
+      "descriptionES": "Realizado con Php y utilizando todos los elementos del desarollo web, tales como HTML, JavaScript, Css y Bootstrap. Alimentado desde un servicio de una base de datos local, migrando y encriptando los datos, a una nueva base de datos para su posterior consulta en el aplicativo web.",
+      "githubLink": "",
+      "projectLink": "https://resultados.cmqcucuta.com/index.php",
+      "imageLink": "../../../assets/images/Laboratorio_CMQ.webp"
+  },
+  {
+      "title": "Institutional Website",
+      "titleES": "Pagina Web Institucional",
+      "languages": ["PHP", "HTML", "CSS", "JavaScript", "Ajax", "Bootstrap"],
+      "description": "Developed with PHP and using all web development elements such as HTML, JavaScript, CSS, and Bootstrap. Powered by a local database service, migrating and encrypting data to a new database for later consultation in the web application.",
+      "descriptionES": "Realizado con Php y utilizando todos los elementos del desarollo web, tales como HTML, JavaScript, Css y Bootstrap. Alimentado desde un servicio de una base de datos local, migrando y encriptando los datos, a una nueva base de datos para su posterior consulta en el aplicativo web.",
+      "githubLink": "",
+      "projectLink": "https://cmqcucuta.com/",
+      "imageLink": "../../../assets/images/cmqcucuta.webp"
+  },
+  {
+    "title": "Web Scraping",
+    "titleES": "Web Scraping",
+    "languages": ["Python", "HTML"],
+    "description": "Scraper developed to consult the list of products in a category of Amazon Spain. Work done for academic purposes.",
+    "descriptionES": "Scraper realizado para consultar el listado de productos de una categoria de Amazon España. Trabajo realizado con fines academicos.",
+    "githubLink": "https://github.com/jhovany95/ScrapingAmz",
+    "projectLink": "",
+    "imageLink": "../../../assets/images/python.webp"
+},
+{
+    "title": "Automatic Planning RPG-World",
+    "titleES": "Automatic Planning Rpg-World",
+    "languages": ["IA", "PDDL"],
+    "description": "Automation project for the hero's path through the levels of a video game using automatic planning.",
+    "descriptionES": "Proyecto de automatización del camino de un heroe por los niveles de un video juego utilizando planificación automatica.",
+    "githubLink": "https://github.com/jhovany95/automatic-planning-rpg-world",
+    "projectLink": "",
+    "imageLink": "../../../assets/images/IA.webp"
+},
+  {
+      "title": "Transformers - Finetuning Beto",
+      "titleES": "Transformers - Finetunning Beto",
+      "languages": ["Python", "Transformers", "IA"],
+      "description": "This project was developed as part of the Iberlef Homomex 2024 competition, Track 1. The main objective was to fine-tune a version of Beto to classify tweets in Mexican Spanish, performing specific finetuning for this task.",
+      "descriptionES": "Este proyecto fue desarrollado como parte de la competencia Iberlef Homomex 2024, Track 1. El objetivo principal fue ajustar una versión de Beto para clasificar tweets en español mexicano, realizando un finetunning específico para esta tarea.",
+      "githubLink": "https://github.com/jhovany95/Finetunning-Beto/",
+      "projectLink": "",
+      "imageLink": "../../../assets/images/IA.webp"
+  },
+  {
+      "title": "Portfolio - Angular",
+      "titleES": "Portafolio - Angular",
+      "languages": ["TypeScript", "Angular", "TailWind CSS"],
+      "description": "This web portfolio, developed with Angular and Tailwind CSS, showcases my skills and projects professionally. It includes a project gallery with descriptions and links, and a functional contact form for receiving messages. ",
+      "descriptionES": "Este portafolio web, desarrollado con Angular y Tailwind CSS, muestra mis habilidades y proyectos de manera profesional. Incluye una galería de proyectos con descripciones y enlaces, y un formulario de contacto funcional para recibir mensajes.",
+      "githubLink": "",
+      "projectLink": "",
+      "imageLink": "../../../assets/images/portafolio.webp"
+  },
+  {
+      "title": "API REST - Django, FastAPI",
+      "titleES": "API REST - Django, FastAPI",
+      "languages": ["Python", "Django", "FastApi"],
+      "description": "Simple REST API, CRUD of projects using Django and FastAPI.",
+      "descriptionES": "Api REST sencilla, CRUD de proyectos usando Django y FastApi",
+      "githubLink": "https://github.com/jhovany95/Django-REST-Api",
+      "projectLink": "",
+      "imageLink": "../../../assets/images/python.webp"
+  },
+  {
+      "title": "Moodle - Educational Platform",
+      "titleES": "Moodle - Plataforma educativa",
+      "languages": ["PHP", "Mysql", "Bootstrap"],
+      "description": "Moodle platform configured and customized for the education sector.",
+      "descriptionES": "Plataforma Moodle configurada y personalizada para el sector educativo.",
+      "githubLink": "",
+      "projectLink": "http://179.32.27.18:9000/RH_educative",
+      "imageLink": "../../../assets/images/RH.webp"
+  }
+]
+
+  

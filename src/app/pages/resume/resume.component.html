@@ -1,0 +1,60 @@
+<section >
+    <div class="container px-4 sm:px-5 md:px-10 lg:px-14" bis_skin_checked="1">
+      <div class="py-12" bis_skin_checked="1">
+        <h2 class="text-[35px] dark:text-white font-medium pb-5"></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-6 mt-[30px]" bis_skin_checked="1">
+          <div bis_skin_checked="1">
+            <div class="flex items-center space-x-2 mb-4" bis_skin_checked="1">
+              <div class="text-6xl text-[#269FFF]" bis_skin_checked="1">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"></path></svg>
+              </div>
+              <h4 class="text-5xl dark:text-white font-medium">{{resumeDataTrad.education}}</h4>
+            </div>
+            <div *ngFor="let box of studiesTrad" class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg hover:bg-blue-200 bg-gray-100 hover:scale-105 dark:bg-[#1D1D1D] dark:hover:bg-[#575757]"  bis_skin_checked="1">
+              <span class="text-tiny text-gray-lite font-semibold dark:text-[#b7b7b7]">{{box.inicio}}-{{box.fin}}</span>
+              <h3 class="text-xl dark:text-white"> {{box.description}}  </h3>
+              <p class="dark:text-[#b7b7b7]"><a href="{{box.link}}" target="_blank" class="hover:text-blue-500">{{box.institution}}</a></p>
+            </div>
+          </div>
+          <div bis_skin_checked="1">
+            <div class="flex items-center space-x-2 mb-4" bis_skin_checked="1">
+
+              <div class="text-6xl text-[#269FFF]" bis_skin_checked="1">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M20 7h-4V5l-2-2h-4L8 5v2H4c-1.1 0-2 .9-2 2v5c0 .75.4 1.38 1 1.73V19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-3.28c.59-.35 1-.99 1-1.72V9c0-1.1-.9-2-2-2zM10 5h4v2h-4V5zM4 9h16v5h-5v-3H9v3H4V9zm9 6h-2v-2h2v2zm6 4H5v-3h4v1h6v-1h4v3z"></path></svg>
+              </div>
+              <h4 class="text-5xl dark:text-white font-medium">{{resumeDataTrad.experience}}</h4>
+            </div>
+            <div *ngFor="let box of experiencesTrad" class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg hover:bg-blue-200 bg-gray-100 hover:scale-105 dark:bg-[#1D1D1D] dark:hover:bg-[#575757]"  bis_skin_checked="1">
+              <span class="text-tiny text-gray-lite font-semibold dark:text-[#b7b7b7]">{{box.inicio}}-{{box.fin}}</span>
+              <h3 class="text-xl dark:text-white"> {{box.description}}  </h3>
+              <p class="dark:text-[#b7b7b7]">{{box.company}}</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-4 sm:px-5 md:px-10 lg:px-20" bis_skin_checked="1">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8" bis_skin_checked="1">
+        <div  class="col-span-1" bis_skin_checked="1">
+          <h4 class="text-5xl dark:text-white font-medium mb-6">{{resumeDataTrad.workingSkills}}</h4>
+          <div *ngFor="let skill of skillsData">
+            <div class="flex justify-between mb-1">
+              <span class="text-base font-medium text-[blue-700] dark:text-white">{{skill.name}}</span>
+              <span class="text-sm font-medium text-blue-700 dark:text-white">{{skill.porcentaje}}</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div class="bg-blue-600 h-2.5 rounded-full" style="width: {{skill.porcentaje}}"></div>
+            </div>
+          </div>
+        </div>
+          <div class="col-span-1" bis_skin_checked="1">
+            <h4 class="text-5xl dark:text-white font-medium mb-8">{{resumeDataTrad.knowledges}}</h4>
+            <div class="flex gap-x-3 gap-y-3 md:gap-y-3 md:gap-x-3 flex-wrap" bis_skin_checked="1">
+              <span *ngFor="let knowledges of knowledgesTrad" class="bg-blue-500 text-black text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-white">{{knowledges.name}} </span>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+  </section>
